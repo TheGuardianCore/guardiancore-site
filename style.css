@@ -11,6 +11,7 @@ body {
   background: #f7f8fa;
 }
 
+/* Hero */
 .hero {
   background: #0b0f1a;
   color: #ffffff;
@@ -36,6 +37,26 @@ body {
   opacity: 0.9;
 }
 
+/* Primary nav */
+.nav {
+  margin: 1rem auto 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.nav a {
+  color: #c7d2fe;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* CTA */
 .cta {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -50,19 +71,27 @@ body {
   background: #1e40af;
 }
 
+/* Layout */
 main {
   max-width: 900px;
   margin: 3rem auto;
   padding: 0 1.5rem;
 }
 
-section {
+main section {
   margin-bottom: 3rem;
 }
 
+/* Typography */
 h2 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
+  color: #0b0f1a;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
   color: #0b0f1a;
 }
 
@@ -70,11 +99,19 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Lists */
 ul {
   list-style: disc;
-  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.25rem;
 }
 
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact link */
 .contact a {
   font-size: 1.1rem;
   font-weight: 600;
@@ -86,11 +123,16 @@ ul {
   text-decoration: underline;
 }
 
+/* Notes */
 .note {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
   font-size: 0.9rem;
   color: #555;
+  opacity: 0.9;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 2rem 1.5rem;
@@ -98,45 +140,13 @@ footer {
   font-size: 0.9rem;
   color: #333;
 }
-/* =========================
-   Content spacing & rhythm
-   ========================= */
 
-/* Section spacing */
-main section {
-  margin-bottom: 3rem;
+footer a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-/* Headings */
-h2 {
-  margin-bottom: 1rem;
-}
-
-h3 {
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
-}
-
-/* Paragraph spacing */
-p {
-  margin-bottom: 1rem;
-}
-
-/* Lists */
-ul {
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-  padding-left: 1.25rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* Notes / callouts */
-.note {
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-  font-size: 0.9em;
-  opacity: 0.85;
+footer a:hover {
+  text-decoration: underline;
 }
