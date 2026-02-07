@@ -39,6 +39,12 @@ This site is intentionally minimal and transparent, designed to:
 
 ---
 
+## Security
+
+Please see [SECURITY.md](SECURITY.md) for responsible vulnerability disclosure guidelines.
+
+---
+
 ## 📁 Repository Structure
 
 ```text
